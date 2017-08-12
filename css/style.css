@@ -1,0 +1,26 @@
+body {
+  background-color: #94b8b8;
+}
+.header {
+  width: 400px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 40px ;
+  font-family: Roboto;
+  font-size: 40px;
+  color: white;
+}
+.search {
+  margin-top: 20px;
+}
+.entryTable {
+  font-family: Roboto;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top: 10px;
+  width: 600px ;
+}
+
+.entry {
+  margin-top: 2px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="row container header">
+    <div class="row text-center">
+      <h1>Wikipedia Viewer</h1>
+    </div>
+    <div class="row search">
+      <div style="margin-top:14px" class="col-md-10">
+        <div class="input-group">
+        <input id="searchText" type="text" class="form-control" placeholder="Search for..." required>
+        <span class="input-group-btn">
+          <button id="search" class="btn btn-primary" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></button>
+        </span>
+      </div>
+      </div>
+      <div class="col-md-2">
+        <button id="random" type="button" class="btn btn-danger">
+          <span class="glyphicon glyphicon-random"></span>          Random
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="resultsContainer" class="row entryTable">
+  </div>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
